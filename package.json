@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "check-updates": "npm-check-updates --workspaces --root --interactive",
-    "lerna": "lerna --no-verify-access --conventional-commits --create-release github --no-private",
+    "lerna": "lerna publish from-package --no-verify-access --conventional-commits --create-release github --no-private",
     "test": "lerna run test",
     "lint": "lerna run lint"
   },
