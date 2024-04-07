@@ -1,6 +1,6 @@
 {
   "name": "@clangclangclang/sluggify",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "Sluggify strings.",
   "author": "Clinton Langosch <clinton.langosch@gmail.com>",
