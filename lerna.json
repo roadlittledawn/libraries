@@ -4,6 +4,12 @@
   "command": {
     "version": {
       "allowBranch": "main"
+    },
+    "publish": {
+      "ignoreChanges": ["ignored-file", "*.md"],
+      "conventionalCommits": true,
+      "yes": true,
+      "message": "chore(release): publish"
     }
   }
 }
