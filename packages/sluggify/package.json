@@ -1,0 +1,28 @@
+{
+  "name": "@clangclangclang/sluggify",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sluggify strings.",
+  "author": "Clinton Langosch <clinton.langosch@gmail.com>",
+  "homepage": "https://github.com/roadlittledawn/libraries/tree/main/packages/sluggify#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roadlittledawn/libraries.git",
+    "directory": "packages/sluggify"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint --ext .js ./",
+    "test": "yarn lint && mocha ./test/*.spec.js ./test/**/*.spec.js"
+  },
+  "engines": {
+    "node": ">=14.0"
+  },
+  "dependencies": {
+    "slug": "5.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
