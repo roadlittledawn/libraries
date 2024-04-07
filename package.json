@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "check-updates": "npm-check-updates --workspaces --root --interactive",
-    "lerna": "lerna",
+    "lerna": "lerna publish",
     "test": "lerna run test",
     "lint": "lerna run lint"
   },
