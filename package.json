@@ -1,7 +1,6 @@
 {
   "name": "libraries",
   "author": "Clinton Langosch <clinton.langosch@gmail.com>",
-  "private": true,
   "repository": "https://github.com/roadlittledawn/libraries.git",
   "license": "MIT",
   "scripts": {
