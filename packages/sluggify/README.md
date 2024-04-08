@@ -2,9 +2,9 @@
 
 Install via NPM:
 
-  ```bash
-  npm install @clangclangclang/sluggify
-  ```
+```bash
+npm install @clangclangclang/sluggify
+```
 
 Install via Yarn:
 
